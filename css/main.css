@@ -1,0 +1,143 @@
+:root{
+    --primaarycolor:rgb(240, 0, 0);
+    --primaarycolor2:rgba(3, 0, 0, 0.792);
+    --primaarycolor3:rgba(255, 255, 255, 0.792);
+    --bgcolor1:rgb(0, 221, 18); 
+    --bgcolor2:rgb(163, 43, 255);
+    --padding:8%;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    color:var(--primaarycolor3)
+}
+h1{
+    font-size: 1.5rem;
+    margin: 1.7rem 0;
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom :3.5rem; 
+}
+h4{
+    font-size: 1.5rem;
+    margin: 1.7rem 0;
+    color: var(--bgcolor2);
+}
+span{
+    color: var(--bgcolor1);
+}
+h2{
+font-size: 2.2rem;
+letter-spacing: 0.12rem;
+cursor: pointer;
+}
+nav{
+   
+    padding-top: 2.8rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+nav ul li a{
+    color:var(--bgcolor2);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+nav ul li a:hover {
+color :var(--primaarycolor)
+}
+.home{
+width: 100%;
+min-width: 100vh;
+background-color: var(--primaarycolor2);
+display: flex;
+flex-direction: column;
+}
+
+.sub{
+    background-color: var(--bgcolor2);
+    color:var(--primaarycolor3);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.78rem;
+    border-radius:30px ;
+    border: 2px solid transparent;
+    transition: 0.4s;
+}
+.sub:hover{
+background-color:var(--bgcolor1);
+border: 2px solid var(--primaarycolor);
+}
+.content{
+background-color:rgb(0, 0, 0);
+flex-grow: 1;
+padding: var(--padding);
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.text{
+position: relative;
+bottom: 70px;
+}
+
+.link{
+margin-top: 3.5rem;
+}
+.link img {
+    margin: right 2rem;
+    width: 2.5rem;
+    transition: 0.4s;
+}
+.link img:hover{
+    transform:scale(1.3);
+}
+.cmg1{
+    width: 70%;
+    display: flex;
+justify-content: center;
+    align-items: center;
+}
+.cimg img {
+max-width: 70%;
+height:auto;
+display: block;
+position:relative;
+}
+.img2{
+    max-width: 50%;
+    height: auto;
+    flex:1;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+   
+}
+#footer{background-color: rgb(0, 0, 0);
+   padding-right:500px;
+   color: red;
+}
+#mr{
+    color:rgb(255, 0, 0);
+    background-color:rgb(255, 255, 255);
+    direction:ltr;
+   }
+.text{
+color:black;
+}

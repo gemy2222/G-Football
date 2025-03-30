@@ -1,0 +1,65 @@
+body {
+    background-color:#044664;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+header img {
+    width: 150px;
+    margin: 20px;
+}
+
+nav {
+    background-color:#9224ec;
+    padding: 10px;
+    
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.6;
+    
+}
+
+.matches table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.matches td {
+    padding: 10px;
+    border: 1px solid white;
+    border-color: rgb(0, 0, 0);
+}
+
+.matches img {
+    width: 50px;
+}
+
+nav ul li a:hover{
+  background-color: blue;
+  border: 2px solid rgb(0, 0, 0)
+}
+img{
+  
+    padding: 10px;
+}
+marquee{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
